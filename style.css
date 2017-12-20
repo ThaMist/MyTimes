@@ -18,6 +18,9 @@ span {
 a {
   color: black;
 }
+div {
+  border: 1px solid black;
+}
 header nav {
   padding-right: 40px;
 }
@@ -29,4 +32,16 @@ header nav {
 }
 .logo span {
   color: MediumAquamarine;
+}
+.content {
+  display: flex;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
 }
